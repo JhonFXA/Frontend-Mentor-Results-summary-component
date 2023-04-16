@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700&display=swap');
+
 * {
     border: 0;
     margin: 0;
@@ -29,20 +31,6 @@
     --dark-gray-blue: hsl(224, 30%, 27%);
 }
 
-@font-face {
-    font-family: 'Hanken';
-    src: url('/assets/fonts/HankenGrotesk-VariableFont_wght.ttf')format('ttf');
-}
-
-@font-face {
-    font-family: 'Hankenmedium';
-    src: url('/assets/fonts/static/HankenGrotesk-Medium.ttf');
-}
-
-@font-face {
-    font-family: 'Hankenbold';
-    src: url('/assets/fonts/static/HankenGrotesk-Bold.ttf');
-}
 
 body {
     display: flex;
@@ -50,7 +38,6 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 18px;
-    font-family: 'Hanken', sans-serif;
     min-height: 100vh;
 }
 
@@ -60,7 +47,8 @@ main {
     height: 20em;
     width: 30em;
     border-radius: 25px;
-    font-family: 'Hankenmedium', sans-serif;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 500;
     background: #fff;
 }
 
@@ -91,7 +79,7 @@ main {
     border-radius: 100%;
     margin: 10px;
     font-size: 15px;
-    font-family: 'Hankenbold', sans-serif;
+    font-weight: bold;
 }
 
 .result .score span {
@@ -137,7 +125,7 @@ main {
     margin-bottom: 10px;
     font-size: 15px;
     padding: 10px;
-    font-family: 'Hankenbold', sans-serif;
+    font-weight: bold;
     border-radius: 10px;
     position: relative;
 }
